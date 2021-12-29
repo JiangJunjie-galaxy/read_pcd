@@ -1,0 +1,7 @@
+<launch>
+
+  <node pkg="read_pcd" type="read_pcd"    name="read_pcd"    output="screen">
+    <param name="pcd_file" value="/home/jjj/catkin_ws/src/read_pcd/pcd/jjj_3.pcd"/>
+  </node>
+  
+</launch>
